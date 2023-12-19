@@ -20,13 +20,5 @@
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": ["default"],
     "sharedGlobals": []
-  },
-  "tasksRunnerOptions": {
-    "default": {
-      "options": {
-        "accessToken": "MmQ0YWNlY2YtNTdiZS00ZGZkLThhMDEtMGM5MTZiNzk1MmJifHJlYWQtd3JpdGU=",
-        "url": "https://84ca-74-111-191-247.ngrok-free.app"
-      }
-    }
   }
 }
