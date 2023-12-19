@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "prettier": "^3.1.1"
+  },
   "devDependencies": {
     "@nx/js": "17.0.1",
     "@nx/workspace": "17.0.1",
