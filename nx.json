@@ -25,6 +25,7 @@
     "default": {
       "runner": "nx-cloud",
       "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "MGQyZjEzZmItOGJkNy00NWIzLWEzYjYtYzYyOTllNzY3Njg4fHJlYWQtd3JpdGU=",
         "url": "https://ae7d-74-111-191-247.ngrok-free.app"
       }
