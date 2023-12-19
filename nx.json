@@ -3,13 +3,8 @@
   "targetDefaults": {
     "build": {
       "cache": true,
-      "dependsOn": [
-        "^build"
-      ],
-      "inputs": [
-        "production",
-        "^production"
-      ]
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     },
     "lint": {
       "cache": true
@@ -22,19 +17,15 @@
     }
   },
   "namedInputs": {
-    "default": [
-      "{projectRoot}/**/*",
-      "sharedGlobals"
-    ],
-    "production": [
-      "default"
-    ],
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "production": ["default"],
     "sharedGlobals": []
   },
   "tasksRunnerOptions": {
     "default": {
       "options": {
-        "accessToken": "MGQyZjEzZmItOGJkNy00NWIzLWEzYjYtYzYyOTllNzY3Njg4fHJlYWQtd3JpdGU="
+        "accessToken": "MGQyZjEzZmItOGJkNy00NWIzLWEzYjYtYzYyOTllNzY3Njg4fHJlYWQtd3JpdGU=",
+        "url": "https://84ca-74-111-191-247.ngrok-free.app"
       }
     }
   }
