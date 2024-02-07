@@ -1,4 +1,7 @@
 {
+
+  "nxCloudAccessToken": "MGE2YjJjNmMtN2FlNi00MzRjLWE0MzEtMDYwNTY5NmY2ZGIzfHJlYWQtd3JpdGU=",
+  "nxCloudUrl": "https://staging.nx.app",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "tasksRunnerOptions": {
     "default": {
