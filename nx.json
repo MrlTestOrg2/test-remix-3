@@ -1,4 +1,6 @@
 {
+"nxCloudAccessToken": "ZTA0N2FhODEtYmZiMi00YTEwLWE5NTEtNzFiZWU3NTVjZTkwfHJlYWQtd3JpdGU=",
+  "nxCloudUrl": "http://localhost:4202",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "tasksRunnerOptions": {
     "default": {
