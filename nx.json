@@ -4,6 +4,9 @@
     "default": {
       "runner": "nx-cloud",
       "options": {
+        "accessToken": "NmYzMDhjMDYtN2JiYi00NDE2LWIwNWEtMzAwNWNmOWZlYzQzfHJlYWQtd3JpdGU=",
+
+        
         "cacheableOperations": ["build", "lint", "test", "e2e"],
         "url": "https://staging.nx.app"
       }
