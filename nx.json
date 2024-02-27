@@ -3,7 +3,7 @@
   "tasksRunnerOptions": {
     "default": {
       "runner": "nx-cloud",
-      "options": {
+      "options": {        "accessToken": "MzNlZTZiYzktOTcwOC00MjljLTg3YjgtZmRmNjZmMmM4OGIwfHJlYWQtd3JpdGU=",        
         "cacheableOperations": ["build", "lint", "test", "e2e"],
         "url": "https://staging.nx.app"
       }
