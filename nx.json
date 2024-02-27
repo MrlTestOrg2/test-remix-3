@@ -2,7 +2,10 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "nx-cloud",
+      
+      "options": {
+        "accessToken": "ZDlhZWM2YzUtNGNiNi00NDUyLTg0ZjgtZDk0ODc0ODI3Y2Y3fHJlYWQtd3JpdGU=",
+"runner": "nx-cloud",
       "options": {
         "cacheableOperations": ["build", "lint", "test", "e2e"],
         "url": "https://staging.nx.app"
