@@ -1,6 +1,12 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "tasksRunnerOptions": {
+  "default": {
+    "options": {
+      "accessToken": "ZTc1Mjg1NWEtYTJiMy00MDBjLTkwZDEtM2M2ZjdiNzZiNmI0fHJlYWQtd3JpdGU=",
+    }
+  }
+
     "default": {
       "runner": "nx-cloud",
       "options": {
