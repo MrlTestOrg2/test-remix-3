@@ -29,4 +29,11 @@
     ],
     "sharedGlobals": []
   }
+  "tasksRunnerOptions": {
+    "default": {
+      "options": {
+        "accessToken": "YTUyYTlmNzYtMGEwOC00MmY1LWI3OWUtNWVkMGY5MjQwZTZhfHJlYWQtd3JpdGU=",
+      }
+    }
+  }
 }
