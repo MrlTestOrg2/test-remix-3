@@ -2,14 +2,25 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
     "build": {
-      "dependsOn": ["^build"],
-      "inputs": ["production", "^production"]
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "production",
+        "^production"
+      ]
     },
     "test": {
-      "inputs": ["default", "^production"]
+      "inputs": [
+        "default",
+        "^production"
+      ]
     },
     "e2e": {
-      "inputs": ["default", "^production"]
+      "inputs": [
+        "default",
+        "^production"
+      ]
     },
     "lint": {
       "inputs": [
@@ -20,7 +31,10 @@
     }
   },
   "namedInputs": {
-    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "default": [
+      "{projectRoot}/**/*",
+      "sharedGlobals"
+    ],
     "production": [
       "default",
       "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
@@ -31,7 +45,9 @@
   },
   "tasksRunnerOptions": {
     "default": {
-      "options": {}
+      "options": {
+        "accessToken": "ZDZmZDgxNzUtMWJhNS00OWI4LThhY2ItMjQxZjQ4ZDNlZDQwfHJlYWQtd3JpdGU="
+      }
     }
   }
 }
