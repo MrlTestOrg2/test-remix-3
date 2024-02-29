@@ -5,12 +5,8 @@
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
     },
-    "test": {
-      "inputs": ["default", "^production"]
-    },
-    "e2e": {
-      "inputs": ["default", "^production"]
-    },
+    "test": { "inputs": ["default", "^production"] },
+    "e2e": { "inputs": ["default", "^production"] },
     "lint": {
       "inputs": [
         "default",
@@ -31,7 +27,10 @@
   },
   "tasksRunnerOptions": {
     "default": {
-      "options": {}
+      "options": {
+        "accessToken": "ZjE4NzdhMmYtOWZmZS00YThlLTk2NmYtOTQ0YzdmODU1MTYyfHJlYWQtd3JpdGU=",
+        "nxCloudUrl": "http://localhost:4202"
+      }
     }
   }
 }
