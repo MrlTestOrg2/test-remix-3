@@ -32,6 +32,7 @@
   "tasksRunnerOptions": {
     "default": {
       "options": {
+        "accessToken": "OTkyNzE5ZGQtMjhkYS00ZWJlLTkxNjAtOGQ5MjQ0MjBlZTdhfHJlYWQtd3JpdGU=",
         "cacheableOperations": ["build", "lint", "test", "e2e"],
         "cacheableSet": true
       }
