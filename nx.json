@@ -31,7 +31,8 @@
   },
   "tasksRunnerOptions": {
     "default": {
-      "options": {}
+      "options": {
+        "accessToken": "NmQ0YjJmN2EtOTM3NS00NzgxLTkwMmUtM2Y5NTJhMmE0MDZkfHJlYWQtd3JpdGU="}
     }
   }
 }
