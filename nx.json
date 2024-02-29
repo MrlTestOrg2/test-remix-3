@@ -31,10 +31,7 @@
   },
   "tasksRunnerOptions": {
     "default": {
-      "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"],
-        "cacheableSet": true
-      }
+      "options": {}
     }
   }
 }
