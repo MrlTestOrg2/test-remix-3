@@ -1,37 +1,36 @@
 {
-  "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "targetDefaults": {
-    "build": {
-      "dependsOn": ["^build"],
-      "inputs": ["production", "^production"]
+    "$schema": "./node_modules/nx/schemas/nx-schema.json",
+    "targetDefaults": {
+        "build": {
+            "dependsOn": ["^build"],
+            "inputs": ["production", "^production"]
+        },
+        "test": { "inputs": ["default", "^production"] },
+        "e2e": { "inputs": ["default", "^production"] },
+        "lint": {
+            "inputs": [
+                "default",
+                "{workspaceRoot}/.eslintrc.json",
+                "{workspaceRoot}/.eslintignore"
+            ]
+        }
     },
-    "test": {
-      "inputs": ["default", "^production"]
+    "namedInputs": {
+        "default": ["{projectRoot}/**/*", "sharedGlobals"],
+        "production": [
+            "default",
+            "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
+            "!{projectRoot}/tsconfig.spec.json",
+            "!{projectRoot}/.eslintrc.json"
+        ],
+        "sharedGlobals": []
     },
-    "e2e": {
-      "inputs": ["default", "^production"]
-    },
-    "lint": {
-      "inputs": [
-        "default",
-        "{workspaceRoot}/.eslintrc.json",
-        "{workspaceRoot}/.eslintignore"
-      ]
+    "tasksRunnerOptions": {
+        "default": {
+            "options": {
+                "accessToken": "Y2Y4OWMyYWUtZDM1ZC00MjRhLTgyN2EtZjY2NDQwMGNhZmU0fHJlYWQtd3JpdGU=",
+                "nxCloudUrl": "http://localhost:4202"
+            }
+        }
     }
-  },
-  "namedInputs": {
-    "default": ["{projectRoot}/**/*", "sharedGlobals"],
-    "production": [
-      "default",
-      "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
-      "!{projectRoot}/tsconfig.spec.json",
-      "!{projectRoot}/.eslintrc.json"
-    ],
-    "sharedGlobals": []
-  },
-  "tasksRunnerOptions": {
-    "default": {
-      "options": {}
-    }
-  }
 }
