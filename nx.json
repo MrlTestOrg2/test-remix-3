@@ -2,6 +2,7 @@
   "tasksRunnerOptions": {
     "default": {
       "options": {
+        "accessToken": "YjI0ZDYxOWItNDk3Ni00MGNlLWI3OWEtNjc3YmU0OTcyNjRhfHJlYWQtd3JpdGU=",
         "accessToken": "YWVkZjM5YWEtNWI4Yy00NzhmLWJhNjAtYTAyZTU0MjMzYzY4fHJlYWQtd3JpdGU="
       }
     }
