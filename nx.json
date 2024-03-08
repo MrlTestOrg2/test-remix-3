@@ -5,12 +5,8 @@
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
     },
-    "test": {
-      "inputs": ["default", "^production"]
-    },
-    "e2e": {
-      "inputs": ["default", "^production"]
-    },
+    "test": { "inputs": ["default", "^production"] },
+    "e2e": { "inputs": ["default", "^production"] },
     "lint": {
       "inputs": [
         "default",
@@ -29,5 +25,6 @@
     ],
     "sharedGlobals": []
   },
-  "nxCloudAccessToken": "YTdhZDYzYzEtNGI1My00M2Y5LTk4OWEtZDc1NjI4MzFlNzQ2fHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "OGM3OWMwNzEtMjcyZS00ZDExLTk2YWEtZWVkNzVlOTA5OTM1fHJlYWQtd3JpdGU=",
+  "nxCloudUrl": "http://localhost:4202"
 }
