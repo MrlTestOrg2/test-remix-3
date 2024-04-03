@@ -2,8 +2,13 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
     "build": {
-      "dependsOn": ["^build"],
-      "inputs": ["production", "^production"]
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "production",
+        "^production"
+      ]
     },
     "test": { "inputs": ["default", "^production"] },
     "e2e": { "inputs": ["default", "^production"] },
@@ -16,7 +21,10 @@
     }
   },
   "namedInputs": {
-    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "default": [
+      "{projectRoot}/**/*",
+      "sharedGlobals"
+    ],
     "production": [
       "default",
       "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
@@ -25,6 +33,6 @@
     ],
     "sharedGlobals": []
   },
-  "nxCloudAccessToken": "YzY2NzlmMWEtYTcxNi00MTIxLTk1ZDktOWJjZGJmMWZlNGVkfHJlYWQtd3JpdGU=",
+  "nxCloudAccessToken": "ZWUzZWIzNjQtZTBjMC00ZjBlLWJlYjAtYmEwZjc0ZThkNWJhfHJlYWQtd3JpdGU=",
   "nxCloudUrl": "https://9bd9-74-111-191-247.ngrok-free.app"
 }
