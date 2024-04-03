@@ -10,18 +10,8 @@
         "^production"
       ]
     },
-    "test": {
-      "inputs": [
-        "default",
-        "^production"
-      ]
-    },
-    "e2e": {
-      "inputs": [
-        "default",
-        "^production"
-      ]
-    },
+    "test": { "inputs": ["default", "^production"] },
+    "e2e": { "inputs": ["default", "^production"] },
     "lint": {
       "inputs": [
         "default",
@@ -44,5 +34,5 @@
     "sharedGlobals": []
   },
   "nxCloudAccessToken": "ZWUzZWIzNjQtZTBjMC00ZjBlLWJlYjAtYmEwZjc0ZThkNWJhfHJlYWQtd3JpdGU=",
-  "nxCloudUrl": "http://localhost:4202"
+  "nxCloudUrl": "https://9bd9-74-111-191-247.ngrok-free.app"
 }
