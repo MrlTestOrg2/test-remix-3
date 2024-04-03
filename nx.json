@@ -1,17 +1,28 @@
 {
-  "nxCloudAccessToken": "OWNhMmU0NmQtOGU4MS00YjhkLTg4ZjMtNjJjZmY0ZjAxNjBifHJlYWQtd3JpdGU=",
-  "nxCloudUrl": "https://cloud.nx.app",
+  "nxCloudAccessToken": "ZDZkODgzM2MtZDM2MS00YmNlLWFmMWItNjZjODA2NTgwODQ4fHJlYWQtd3JpdGU=",
+  "nxCloudUrl": "http://localhost:4202",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
     "build": {
-      "dependsOn": ["^build"],
-      "inputs": ["production", "^production"]
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "production",
+        "^production"
+      ]
     },
     "test": {
-      "inputs": ["default", "^production"]
+      "inputs": [
+        "default",
+        "^production"
+      ]
     },
     "e2e": {
-      "inputs": ["default", "^production"]
+      "inputs": [
+        "default",
+        "^production"
+      ]
     },
     "lint": {
       "inputs": [
@@ -22,7 +33,10 @@
     }
   },
   "namedInputs": {
-    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "default": [
+      "{projectRoot}/**/*",
+      "sharedGlobals"
+    ],
     "production": [
       "default",
       "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
