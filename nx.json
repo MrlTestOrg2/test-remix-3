@@ -1,5 +1,5 @@
 {
-  "nxCloudAccessToken": "NzczZjUxNjUtZGQzZC00YzNmLThjZTYtMWVmODdmYmM0MzU0fHJlYWQtd3JpdGU=",
+  "nxCloudAccessToken": "MDliZDg3ZGUtOGU2Mi00YjI5LWJjMDYtMjhhNzVlNDIwMjNlfHJlYWQtd3JpdGU=",
   "nxCloudUrl": "https://staging.nx.app",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
