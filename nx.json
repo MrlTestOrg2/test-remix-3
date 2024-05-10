@@ -5,8 +5,12 @@
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
     },
-    "test": { "inputs": ["default", "^production"] },
-    "e2e": { "inputs": ["default", "^production"] },
+    "test": {
+      "inputs": ["default", "^production"]
+    },
+    "e2e": {
+      "inputs": ["default", "^production"]
+    },
     "lint": {
       "inputs": [
         "default",
@@ -25,5 +29,6 @@
     ],
     "sharedGlobals": []
   },
-  "nxCloudUrl": "https://56d1-98-236-236-172.ngrok-free.app"
+  "nxCloudUrl": "https://430a-74-111-191-247.ngrok-free.app",
+  "nxCloudAccessToken": "NTQ0NTE2ZjYtOGNlZC00YTA0LWFlOGMtM2RhOTY3NDQ0NzcxfHJlYWQtd3JpdGU="
 }
