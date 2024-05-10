@@ -25,5 +25,6 @@
     ],
     "sharedGlobals": []
   },
-  "nxCloudUrl": "https://56d1-98-236-236-172.ngrok-free.app"
+  "nxCloudUrl": "http://localhost:4202",
+  "nxCloudAccessToken": "NjQzN2JlMWUtYTAzMy00YWEwLTg5ZTItMDI2MDQwNjc5OTc3fHJlYWQtd3JpdGU="
 }
