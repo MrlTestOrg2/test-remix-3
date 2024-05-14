@@ -25,5 +25,6 @@
     ],
     "sharedGlobals": []
   },
-  "nxCloudUrl": "https://56d1-98-236-236-172.ngrok-free.app"
+  "nxCloudUrl": "https://staging.nx.app",
+  "nxCloudAccessToken": "OTc5YTQyYTgtNGYyMy00Zjg1LWI5ZjItYjUzNmQxMTMyMTZhfHJlYWQtd3JpdGU="
 }
